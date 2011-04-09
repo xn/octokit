@@ -1,3 +1,4 @@
+
 # -*- encoding: utf-8 -*-
 require File.expand_path('../lib/octokit/version', __FILE__)
 
@@ -16,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('jruby-openssl', '~> 0.7.3') if RUBY_PLATFORM == 'java'
   s.add_runtime_dependency('multi_json', '~> 0.0.5')
   s.add_runtime_dependency('multi_xml', '~> 0.2.0')
-  s.name = 'octokit'
+  s.name = 'xn-octokit'
   s.authors = ["Wynn Netherland", "Adam Stacoviak", "Erik Michaels-Ober"]
   s.description = %q{Simple wrapper for the GitHub API v2}
   s.email = ['wynn.netherland@gmail.com']
